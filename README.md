@@ -1,2 +1,2 @@
 # WeatherRobot
-It's a robot on twitter. When a tweet mention it with a city name, it will respond by the city's current weather.
+It's a robot on twitter. Mention it with a city name, it will respond your by the city's weather in next 3 hours.
