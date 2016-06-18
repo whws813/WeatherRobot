@@ -55,7 +55,7 @@ function getWeather(city, replytoStatus, replytoUser) {
 				var weather = result.list[1].weather[0].description;
 				var tempMin = (result.list[1].main.temp_min -273.15).toFixed(2);
 				var tempMax = (result.list[1].main.temp_max -273.15).toFixed(2);
-				var text = "weather of " + resCity + " in three hours: " + weather + ", temperature: " + tempMin + "°C ~ " + tempMax + "°C. @" + replytoUser;
+				var text = "weather of " + resCity + " of the next three hours: " + weather + ", temperature: " + tempMin + "°C ~ " + tempMax + "°C. @" + replytoUser;
 				postTweet(text,replytoStatus);
 			} else if(result.message=='Error: Not found city'){
 				var text = "sorry, I can't find this city @" + replytoUser;
