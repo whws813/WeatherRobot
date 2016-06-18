@@ -10,7 +10,7 @@ var T = new Twit({
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests. 
 });
 
-var myVar = setInterval(function(){getLastReplyTo()}, 300000);
+var myVar = setInterval(function(){getLastReplyTo()}, 180000);
 
 //getLastReplyTo();
 
